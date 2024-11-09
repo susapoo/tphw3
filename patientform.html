@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Registration Form</title>
     <link href="style.css" rel="stylesheet">
-    <script src="validation.js" defer></script>
+    <script src="validate.js" defer></script>
     <script>
         function displayDate() {
             const dateElement = document.getElementById('date');
@@ -20,7 +21,7 @@
     Program name: patientform.html
     Author: Susana Nguyen
     Date created: Sept 18, 2024
-    Date last edited: 11/8/2024
+    Date last edited: Nov 8, 2024
     Version: 1.2
     Description: A patient registration form for Adjecta Medical.
     -->
@@ -30,7 +31,7 @@
     </div>
     <img src="https://img.freepik.com/premium-vector/stethoscope-illustration-vector-isolated-white-background_686646-84.jpg?w=360" width="150">
 
-    <form action="homework1-thankyou.html" method="GET" onsubmit="return validateForm() && validatePasswords();">
+    <form action="thankyou.html" method="GET" onsubmit="return validateForm() && validatePasswords();">
         <table>
             <tr>
                 <td>First Name:</td>
@@ -172,24 +173,5 @@
             </tr>
             <tr>
                 <td>Password:</td>
-                <td colspan="3"><input type="password" name="
-                 <tr>
-                <td>Re-enter Password:</td>
-                <td colspan="3"><input type="password" name="re_password" required></td>
-            </tr>
-        </table>
-
-
-        <div class="buttons">
-            <input type="reset" value="Clear and Start Over">
-            <input type="submit" value="Submit">
-        </div>
-    </form>
-
-
-    <footer>
-        <p>Adjecta Medical | <a href="#">Contact Us</a> | PO BOX 18881, Sugar Land TX 77496</p>
-    </footer>
-</body>
-</html>
-
+                <td colspan="3"><input type="password" name="password" required></td>
+            </
