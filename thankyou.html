@@ -85,8 +85,7 @@
 </head>
 <body>
     <h1>Patient Registration Form</h1>
-    <form onsubmit="return validateForm();">
-
+    <form onsubmit="return validateForm() && validatePasswords();">
         <label for="firstName">First Name:</label>
         <input type="text" id="firstName" name="firstName" title="Enter your first name (1-30 characters)" required><br>
 
@@ -115,7 +114,8 @@
     <div id="review-section" style="display: none;"></div>
 
     <footer>
-        
+     
     </footer>
 </body>
+
 </html>
